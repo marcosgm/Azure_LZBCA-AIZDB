@@ -1,4 +1,6 @@
 # Azure_LZBCA-AIZDB
+
+[![IaC](https://app.soluble.cloud/api/v1/public/badges/7941c1e0-7b55-45cf-864c-a7ecb373ddbb.svg)](https://app.soluble.cloud/repos/details/github.com/marcosgm/azure_lzbca-aizdb)  [![CIS](https://app.soluble.cloud/api/v1/public/badges/a3fbdfcc-47e2-4895-b5a9-c7ff0d314ac5.svg)](https://app.soluble.cloud/repos/details/github.com/marcosgm/azure_lzbca-aizdb)  [![HIPAA](https://app.soluble.cloud/api/v1/public/badges/d97224a5-c212-4bbe-b33e-34b9cdf19da9.svg)](https://app.soluble.cloud/repos/details/github.com/marcosgm/azure_lzbca-aizdb)  
 Azure Landing Zone Base Cloud Architecture - Architecture infonuagique zone d'atterrissage de base
 
 This initiative is a contribution to the GC Accelerators.
@@ -11,7 +13,7 @@ The users of this initiative will be Government of Canada employees deploying cl
 
 The Azure Landing Zone Base Cloud Architecture **(LZBCA)** is an initiative that is led by Cloud Product Management & Services - Research & Development team. 
 
-The Azure LZBCA is a fully functional Virtual Data Centre (VDC) with the necessary configuration to meet the 30-Day Guardrails (technical only) and many of the 90-Day guardrails through Infrastructure as Code (IaC). It aligns with Cloud Usage Profile 3, with a future design for Cloud Usage Profiles 5 & 6.  We will be starting our Security Assessment (SA) on the environment in June 2020. 
+The Azure LZBCA is a fully functional Virtual Data Centre (VDC) with the necessary configuration to meet the 30-Day Guardrails (technical only) and many of the 90-Day guardrails through Infrastructure as Code (IaC). It aligns with Cloud Usage Profile 3, with a future design for Cloud Usage Profiles 5 & 6.ï¿½ We will be starting our Security Assessment (SA) on the environment in June 2020. 
   
 * For Network details See [Network Architecture](Network/README.md)
 * For Routing details See [Routing and Flow Control Overview](Network/Routing_Overview.md)
@@ -39,7 +41,7 @@ ______________________
 
 # Code Generation Pipeline
 
-The code pipeline begin with an VDC input configuration spread sheet, this is used to build a control file that is ingested by a PowerShell script to create all the necessary Terraform “*.tf” files required to deploy a VDC.
+The code pipeline begin with an VDC input configuration spread sheet, this is used to build a control file that is ingested by a PowerShell script to create all the necessary Terraform ï¿½*.tfï¿½ files required to deploy a VDC.
 
 ![Diagram](Resources/code-pipeline.png)
 
@@ -132,21 +134,21 @@ ______________________
 # Azure_LZBCA-AIZDB
 Azure Cloud Landing Zone Base Cloud Architecture - Architecture infonuagique zone d'atterrissage de base
 
-Cette initiative est une contribution aux accélérateurs du GC.
+Cette initiative est une contribution aux accï¿½lï¿½rateurs du GC.
 
-Ces outils et IaC (Infrastructure as Code) permettent au gouvernement du Canada d'orienter et de soutenir les normes numériques du GC.
+Ces outils et IaC (Infrastructure as Code) permettent au gouvernement du Canada d'orienter et de soutenir les normes numï¿½riques du GC.
 
-Les utilisateurs de cette initiative seront des employés du gouvernement du Canada qui déploieront des charges de travail en infonuagique.
+Les utilisateurs de cette initiative seront des employï¿½s du gouvernement du Canada qui dï¿½ploieront des charges de travail en infonuagique.
 
 # Contexte
 
-L'AIZDB est une initiative dirigée par la direction des services et de la gestion des produits infonuagiques- Équipe de recherche et développement.
+L'AIZDB est une initiative dirigï¿½e par la direction des services et de la gestion des produits infonuagiques- ï¿½quipe de recherche et dï¿½veloppement.
 
-L’AIZDB est un centre de données virtuel (CDV) entièrement fonctionnel doté de toutes les composantes nécessaires pour rencontrer les garde-fous de 30 jours (aspects techniques) ainsi que plusieurs des garde-fous de 90 jours via une infrastructure déployable par Code (IaC). Il s'aligne sur le profil d'utilisation infonuagique 3 avec une conception future qui tiens compte des profils d'utilisation infonuagique 5 et 6. Nous commencerons notre évaluation de la sécurité (SA) sur l'environnement en juin 2020.
+Lï¿½AIZDB est un centre de donnï¿½es virtuel (CDV) entiï¿½rement fonctionnel dotï¿½ de toutes les composantes nï¿½cessaires pour rencontrer les garde-fous de 30 jours (aspects techniques) ainsi que plusieurs des garde-fous de 90 jours via une infrastructure dï¿½ployable par Code (IaC). Il s'aligne sur le profil d'utilisation infonuagique 3 avec une conception future qui tiens compte des profils d'utilisation infonuagique 5 et 6. Nous commencerons notre ï¿½valuation de la sï¿½curitï¿½ (SA) sur l'environnement en juin 2020.
 
-Il a été conçu pour permettre aux partenaires de déployer rapidement une zone d'atterrissage Azure qui s'aligne sur les normes de dénomination et les blocs d’addresses IP d'un partenaire.
+Il a ï¿½tï¿½ conï¿½u pour permettre aux partenaires de dï¿½ployer rapidement une zone d'atterrissage Azure qui s'aligne sur les normes de dï¿½nomination et les blocs dï¿½addresses IP d'un partenaire.
 
-Le développement d'AAIZDB continuera à ajouter des fonctionnalités pour des composantes tels que: SCED, AD, RBAC et etc.. Ce développement se fera en parallèle avec le processus d’évaluation de la sécurité. Pour une liste complète des fonctionnalités en développements actuels et futurs, voir les sections "Available Today – Disponible auhourd’hui" et "Future Releases – Prochaines versions" ci-dessous.
+Le dï¿½veloppement d'AAIZDB continuera ï¿½ ajouter des fonctionnalitï¿½s pour des composantes tels que: SCED, AD, RBAC et etc.. Ce dï¿½veloppement se fera en parallï¿½le avec le processus dï¿½ï¿½valuation de la sï¿½curitï¿½. Pour une liste complï¿½te des fonctionnalitï¿½s en dï¿½veloppements actuels et futurs, voir les sections "Available Today ï¿½ Disponible auhourdï¿½hui" et "Future Releases ï¿½ Prochaines versions" ci-dessous.
 
 ______________________
 
@@ -158,97 +160,97 @@ Contactez [ssc.azurelzbca-azureaizdb.spc@canada.ca](mailto:ssc.azurelzbca-azurea
 
 ## Licence
 
-Sauf indication contraire, le code source de ce projet est couvert par le droit d'auteur de la Couronne, gouvernement du Canada, et est distribué sous la [Licence MIT] (LICENCE).
+Sauf indication contraire, le code source de ce projet est couvert par le droit d'auteur de la Couronne, gouvernement du Canada, et est distribuï¿½ sous la [Licence MIT] (LICENCE).
 
-Le mot-symbole Canada et les graphiques associés à cette distribution sont protégés par le droit des marques et le droit d'auteur. Aucune autorisation n'est accordée pour les utiliser en dehors des paramètres du programme d'identité corporative du gouvernement du Canada. Pour plus d'informations, voir [Exigences fédérales en matière d'identité] (https://www.canada.ca/fr/treasury-board-secretariat/topics/government-communications/federation-identity-requirements.html).
+Le mot-symbole Canada et les graphiques associï¿½s ï¿½ cette distribution sont protï¿½gï¿½s par le droit des marques et le droit d'auteur. Aucune autorisation n'est accordï¿½e pour les utiliser en dehors des paramï¿½tres du programme d'identitï¿½ corporative du gouvernement du Canada. Pour plus d'informations, voir [Exigences fï¿½dï¿½rales en matiï¿½re d'identitï¿½] (https://www.canada.ca/fr/treasury-board-secretariat/topics/government-communications/federation-identity-requirements.html).
 
 ______________________
 
-# Pipeline de génération de code
+# Pipeline de gï¿½nï¿½ration de code
 
-Le pipeline de code commence par une feuille de calcul de configuration d'entrée VDC, qui est utilisée pour créer un fichier de contrôle qui est ingéré par un script PowerShell pour créer tous les fichiers Terraform «* ??.tf» nécessaires pour déployer un VDC.
+Le pipeline de code commence par une feuille de calcul de configuration d'entrï¿½e VDC, qui est utilisï¿½e pour crï¿½er un fichier de contrï¿½le qui est ingï¿½rï¿½ par un script PowerShell pour crï¿½er tous les fichiers Terraform ï¿½* ??.tfï¿½ nï¿½cessaires pour dï¿½ployer un VDC.
 
 ![Diagram](Resources/code-pipeline.png)
 
-## VDC Configuration Spreadsheet définit les valeurs suivantes
-Groupes de ressources, réseaux virtuels et sous-réseaux, homologation et routage défini par l'utilisateur, machines virtuelles + ensembles de disponibilité, contrôleur de domaine Windows, pare-feu Fortinet HA, équilibreur de charge F5 / Azure HA, application Azure SDN, espace de travail d'analyse des journaux, cartes réseau + Ips publiques temporaires [config et licences], groupes de sécurité réseau, Azure Security Center [+ activation de l'abonnement]
+## VDC Configuration Spreadsheet dï¿½finit les valeurs suivantes
+Groupes de ressources, rï¿½seaux virtuels et sous-rï¿½seaux, homologation et routage dï¿½fini par l'utilisateur, machines virtuelles + ensembles de disponibilitï¿½, contrï¿½leur de domaine Windows, pare-feu Fortinet HA, ï¿½quilibreur de charge F5 / Azure HA, application Azure SDN, espace de travail d'analyse des journaux, cartes rï¿½seau + Ips publiques temporaires [config et licences], groupes de sï¿½curitï¿½ rï¿½seau, Azure Security Center [+ activation de l'abonnement]
 
-# Feuille de route pour le développement futur
+# Feuille de route pour le dï¿½veloppement futur
 
 ![Diagram](Resources/azure-roadmap.png)
 
 # **Disponible aujourd'hui**
-1. Azure LZBCA r2b = VDC entièrement fonctionnel
-   - Infrastructure de sécurité principale
+1. Azure LZBCA r2b = VDC entiï¿½rement fonctionnel
+   - Infrastructure de sï¿½curitï¿½ principale
      - F5
        - Paire HA (active / passive)
        - NAT Internet sortant
        - Livraison d'application (LTM)
-         - Déchargement SSL
-       - Accès à distance (APM)
-         - Portail d'accès
+         - Dï¿½chargement SSL
+       - Accï¿½s ï¿½ distance (APM)
+         - Portail d'accï¿½s
          - Proxy RDS
      - FortiGate
        - Paire VM-08 HA (active / passive)
-       - Séparation Prod et Dev à l'aide de vDOM
-       - Contrôle de flux
+       - Sï¿½paration Prod et Dev ï¿½ l'aide de vDOM
+       - Contrï¿½le de flux
        - Liste blanche d'URL
        - IPS / IDS
        - Anti-Malware
        - Inspection SSL
    - Zonage ITSG-22
-     - Zone à gestion restreinte (MRZ)
-     - Zone d'accès à la gestion (MAZ)
-     - Zone d'accès public (PAZ)> Prod & Dev
-     - Zone d'opération (OZ)> Prod & Dev
-     - Zone restreinte de données (RZ)> Prod & Dev
+     - Zone ï¿½ gestion restreinte (MRZ)
+     - Zone d'accï¿½s ï¿½ la gestion (MAZ)
+     - Zone d'accï¿½s public (PAZ)> Prod & Dev
+     - Zone d'opï¿½ration (OZ)> Prod & Dev
+     - Zone restreinte de donnï¿½es (RZ)> Prod & Dev
      - Zone d'application restreinte (RZ)> Prod & Dev
-     - FE Zone privée restreinte (RZ)> Prod & Dev
-2. Service géré disponible pour aider à déployer une zone d'atterrissage Azure avec des normes de dénomination alignées et des blocs IP.
-3. Normes de nommage et d'étiquetage Azure
-4. Guide de mise en œuvre de garde-corps de 30 jours
-5. Garde-corps de 30 jours appliqués (GR technique uniquement)
+     - FE Zone privï¿½e restreinte (RZ)> Prod & Dev
+2. Service gï¿½rï¿½ disponible pour aider ï¿½ dï¿½ployer une zone d'atterrissage Azure avec des normes de dï¿½nomination alignï¿½es et des blocs IP.
+3. Normes de nommage et d'ï¿½tiquetage Azure
+4. Guide de mise en ï¿½uvre de garde-corps de 30 jours
+5. Garde-corps de 30 jours appliquï¿½s (GR technique uniquement)
 6. Outil de rapports
-7. Déploie un répertoire AD local (azure.local)
+7. Dï¿½ploie un rï¿½pertoire AD local (azure.local)
 
 # ** Versions futures **
-1. Outil d'automatisation de la conformité des garde-corps de 30 jours (r2c)
-2. Intégrer F5 dans le pipeline (r2c)
-3. Modulariser le déploiement de Terraform
+1. Outil d'automatisation de la conformitï¿½ des garde-corps de 30 jours (r2c)
+2. Intï¿½grer F5 dans le pipeline (r2c)
+3. Modulariser le dï¿½ploiement de Terraform
    - F5 (r2c)
    - FortiGate (r2c)
    - Infrastructure principale (r2c)
-   - Composants boulonnés
+   - Composants boulonnï¿½s
      - Abonnement (r2d)
      - Groupe de ressources (r2d)
      - vNets / sNets (r2d)
      - Key Vault (r2d)
-4. Automatisation de la conformité IaaS / PaaS Guardrail
+4. Automatisation de la conformitï¿½ IaaS / PaaS Guardrail
    - Garde-corps de 30 jours (R2C)
    - Garde-corps 90 jours (R2D)
    - Garde-corps de 180 jours (R2D)
-5. Séparer les paires FortiGate HA pour Prod et Dev (r2c)
-6. Connectivité SCED / Profil d'utilisation infonuagique 5 et 6 (r2d)
+5. Sï¿½parer les paires FortiGate HA pour Prod et Dev (r2c)
+6. Connectivitï¿½ SCED / Profil d'utilisation infonuagique 5 et 6 (r2d)
 7. Services de domaine Active Directory - Ground <-> Cloud (r2d)
-8. ATO - Profil de sécurité Cloud PBMM (contrôles techniques uniquement)
-9. Authentification F5 pour Active Directory local utilisé
+8. ATO - Profil de sï¿½curitï¿½ Cloud PBMM (contrï¿½les techniques uniquement)
+9. Authentification F5 pour Active Directory local utilisï¿½
 10. Durcissement de toutes les infrastructures
 11. Cadre de gouvernance de haut niveau
 
 # Remarques
 
-Tâches post-déploiement:
-Doit changer tous les mots de passe et ID utilisateur par défaut pour tous les comptes.
+Tï¿½ches post-dï¿½ploiement:
+Doit changer tous les mots de passe et ID utilisateur par dï¿½faut pour tous les comptes.
 
 ______________________
 
 # Limites actuelles des versions
 
-Azure AIZDB version 2b a quelques limitations lors de l'utilisation du pipeline pour générer de nouveaux fichiers * .TF pour créer un VDC personnalisé, ces limitates sont les suivantes:
+Azure AIZDB version 2b a quelques limitations lors de l'utilisation du pipeline pour gï¿½nï¿½rer de nouveaux fichiers * .TF pour crï¿½er un VDC personnalisï¿½, ces limitates sont les suivantes:
 
-1. Le code F5 dans ce référentiel est entièrement fonctionnel, mais il n'est pas passé par le pipeline et a été configuré manuellement via IaC. Cela sera corrigé pour notre version r2c. Si vous souhaitez personnaliser un déploiement (intégrer votre norme de dénomination et vos blocs IP) avant notre prochaine version, nous vous suggérons de tirer parti de notre service géré pour vous aider dans le processus.
+1. Le code F5 dans ce rï¿½fï¿½rentiel est entiï¿½rement fonctionnel, mais il n'est pas passï¿½ par le pipeline et a ï¿½tï¿½ configurï¿½ manuellement via IaC. Cela sera corrigï¿½ pour notre version r2c. Si vous souhaitez personnaliser un dï¿½ploiement (intï¿½grer votre norme de dï¿½nomination et vos blocs IP) avant notre prochaine version, nous vous suggï¿½rons de tirer parti de notre service gï¿½rï¿½ pour vous aider dans le processus.
 
-2. Il existe également une liste des étapes de pré et post déploiement qui sont requises, celles-ci sont disponibles ici "ajouter un lien aux étapes". Nous prévoyons automatiser certaines de ces étapes dans le future.
+2. Il existe ï¿½galement une liste des ï¿½tapes de prï¿½ et post dï¿½ploiement qui sont requises, celles-ci sont disponibles ici "ajouter un lien aux ï¿½tapes". Nous prï¿½voyons automatiser certaines de ces ï¿½tapes dans le future.
 
 
 
